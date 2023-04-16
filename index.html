@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <!-- FONT AWSOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTRAP  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <!-- Brand  -->
+            <a class="logo navbar-brand" href="#">
+                <i class="fa-solid fa-dice-d20 fa-2x"></i>
+                <span>CyberPortfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Nav link  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="menu navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CAROUSEL -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay"></div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-thumb">
+                        <img class="img-fluid" src="./image/01-3.jpg" alt="">
+                    </div>
+                    <h3>Our goals. Our mission.</h3>
+                    <p>How we help other companies to grow.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-thumb">
+                        <img class="img-fluid" src="./image/02-3.jpg" alt="">
+                    </div>
+                    <h3>Our goals. Our mission.</h3>
+                    <p>How we help other companies to grow.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-thumb">
+                        <img class="img-fluid" src="./image/03-3.jpg" alt="">
+                    </div>
+                    <h3>Our goals. Our mission.</h3>
+                    <p>How we help other companies to grow.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- PROJECT -->
+    <section id="project" class="container py-5">
+        <div class="title text-center">
+            <h1>I Love What I Do</h1>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum primis
+                in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+        </div>
+        <div class="project__content">
+            <!-- Nav pills -->
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#allProjects">All projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#illustration">Illustration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#photography">Photography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#website">Website</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active" id="allProjects">
+                    <div class="row">
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g1.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g2.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g3.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g4.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g5.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g6.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container fade" id="illustration">
+                    <div class="row">
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g1.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g2.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g3.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container fade" id="photography">
+                    <div class="row">
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g4.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g5.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container fade" id="website">
+                    <div class="row">
+                        <div class="col-6 col-md-4 my-3">
+                            <div class="card">
+                                <img class="card-img-top" src="./image/g6.jpg" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                                    <p class="card-text">Branding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- SERVICE -->
+    <section id="service">
+        <div class="service__overlay"></div>
+        <div class="container py-5">
+            <div class="title text-center">
+                <h2>I'm Available For Hire</h2>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+            </div>
+            <div class="service__content">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="fa fa-paint-brush"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Design</h4>
+                                <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center ">
+                            <i class="fa fa-shekel-sign"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Marketing</h4>
+                                <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="fa fa-camera"></i>
+                            <div class="card-body">
+                                <h4 class="card-title">Photography</h4>
+                                <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional Javascript -->
+    <!-- BOOTSTRAP JQUERY  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
